@@ -1,5 +1,5 @@
 import { PrettyChatWindow } from "react-chat-engine-pretty";
-const PROJECT_ID = import.meta.env.VITE_PROJECT_ID;
+const PROJECT_ID = process.env.REACT_APP_PROJECT_ID;
 function ChatsPage(props) {
   return (
     <div style={{ height: "100vh" }}>
